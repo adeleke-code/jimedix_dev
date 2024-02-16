@@ -43,7 +43,10 @@ export const Services = () => {
         </div>
       </div>
 
-      <div className="lg:px-24 py-10 lg:py-20">
+      <div style={{
+        maxWidth: "1400px",
+        margin: "auto"
+      }} className="lg:px-24 py-10 lg:py-20">
         <h2 className="text-xl text-center lg:text-left lg:text-4xl font-bold ">Our Pathology Departments</h2>
 
         <div className="grid grod-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  lg:pb-20 items-center mt-10 mx-4 lg:mx-0">

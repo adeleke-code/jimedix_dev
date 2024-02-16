@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
-    <section id="about-us" className="px-7 lg:px-36 mb-10">
+    <section id="about-us" className="px-7 lg:px-36 mb-10 max-w-[1400px] mx-auto">
       <h2 className="text-2xl lg:text-3xl text-center mt-8 lg:mt-16 font-bold">
         About <span className="text-primary">Us</span>
       </h2>
 
       <div className="flex flex-col lg:flex-row mt-10 gap-8">
         <div
-          className="lg:w-[50%] h-[340px]"
+          className="lg:w-[50%] h-[220px] md:h-[350px]"
           style={{
-            backgroundImage: `url("${Doc}")`,
-            // backgroundSize: "cover",
+            backgroundImage: `url("https://img.freepik.com/free-vector/flat-hand-drawn-female-team-leader-illustration_52683-55542.jpg?w=740&t=st=1708093003~exp=1708093603~hmac=9f191ac7f835580d7a4007cbe80e82c6c61c6b5bf5246850cd1b1abba3df2ac4")`,
+            backgroundSize: "contain",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           }}

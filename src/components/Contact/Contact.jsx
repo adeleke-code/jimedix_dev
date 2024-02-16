@@ -3,7 +3,8 @@ import { Button } from "../Button/Button";
 
 export const Contact = () => {
   return (
-    <section id="contact-us" className="px-7 lg:px-32 mt-10 lg:mt-20 flex flex-col lg:flex-row justify-between items-center bg-primary py-10 lg:py-0 lg:h-36 gap-6">
+    <div className="bg-primary">
+    <section id="contact-us" className="px-7 lg:px-32 mt-10 lg:mt-20 flex flex-col lg:flex-row justify-between items-center  py-10 lg:py-0 lg:h-36 gap-6 max-w-[1400px] mx-auto">
       <div className="text-[#fff] flex flex-col gap-2">
         <h2 className="lg:text-2xl font-semibold text-center lg:text-left">
           Get <span className="text-3xl">10%</span> Cashback
@@ -25,5 +26,6 @@ export const Contact = () => {
         </Button>
       </div>
     </section>
+    </div>
   );
 };

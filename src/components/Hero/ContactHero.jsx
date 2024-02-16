@@ -3,12 +3,12 @@ import { Button } from "../Button/Button";
 import Input from "../Input/Input";
 import { Link } from "react-router-dom";
 
-export const BlogHero = () => {
+export const ContactHero = () => {
   return (
     <section className="w-full mt-4 lg:mt-6 lg:gap-10 md:pb-20 lg:pb-0 relative">
       <div className=" h-[150px] lg:h-[250px] lg:pt-10 flex flex-col gap-4 items-center ">
         <h1 className="text-2xl lg:text-5xl leading-[24px] md:leading-[40px] lg:leading-[60px] text-[#fff] font-bold text-center mt-4 lg:mt-0">
-          Our <span className="text-primary">Blog</span>
+          Contact <span className="text-primary">Us</span>
         </h1>
       </div>
 

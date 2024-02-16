@@ -40,7 +40,10 @@ export const AboutUs = () => {
           <AboutHero />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 py-8 lg:py-20 items-center">
+      <div style={{
+        maxWidth: "1400px",
+        margin: "auto"
+      }} className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 py-8 lg:py-20 items-center ">
         <p className="lg:w-[50%] text-[14px] lg:text-xl text-center kg:text-left">
           We began operations in 2016, back then we were only a pathology
           laboratory that attended to Walk-in Clients and a few Hospitals.Today,
@@ -62,7 +65,10 @@ export const AboutUs = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 lg:pb-20 items-center">
+      <div style={{
+        maxWidth: "1400px",
+        margin: "auto"
+      }} className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 lg:pb-20 items-center">
         <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-center h-60 lg:h-80">
           <h3 className="text-center text-xl lg:text-3xl font-bold">
             OUR MISSION
@@ -85,7 +91,10 @@ export const AboutUs = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-10 lg:px-24 pb-14 lg:pb-20 items-center justify-center mt-10 lg:mt-0">
+      <div style={{
+        maxWidth: "1400px",
+        margin: "auto"
+      }} className="flex flex-col gap-10 lg:px-24 pb-14 lg:pb-20 items-center justify-center mt-10 lg:mt-0">
         <h3 className="text-center text-xl lg:text-3xl font-bold text-[#1a2423]">
           OUR VALUES
         </h3>

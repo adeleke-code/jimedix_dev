@@ -40,7 +40,7 @@ export const Service = () => {
   ];
 
   return (
-    <section id="services" className="px-7 lg:px-36 mb-10">
+    <section id="services" className="px-7 lg:px-36 mb-10 max-w-[1400px] mx-auto">
       <h2 className="text-2xl lg:text-3xl text-center mt-8 lg:mt-16 font-bold">
         Our <span className="text-primary">Services</span>
       </h2>

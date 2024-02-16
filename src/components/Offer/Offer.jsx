@@ -41,7 +41,7 @@ export const Offer = () => {
   ];
 
   return (
-    <div className="px-7 lg:px-36 mb-10 flex flex-col lg:flex-row gap-4 lg:gap-20 items-center">
+    <div className="px-7 lg:px-36 mb-10 flex flex-col lg:flex-row gap-4 lg:gap-20 items-center max-w-[1400px] mx-auto">
       <div className="lg:w-[40%]">
         <h2 className="text-2xl text-center lg:text-left lg:text-3xl mt-8 lg:mt-16 font-bold">
           What makes us <span className="text-primary">Different ?</span>

@@ -5,7 +5,7 @@ import { AboutUs } from "../pages/AboutUs/AboutUs";
 import { Services } from "../pages/Services/Services";
 import { Blog } from "../pages/Blog/Blog";
 import { Team } from "../pages/Team/Team";
-import { Contact } from "../components/Contact/Contact";
+import { Contact } from "../pages/Contact/Contact";
 
 export const NavRoutes = () => {
   return (

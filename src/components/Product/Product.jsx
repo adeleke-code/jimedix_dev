@@ -3,7 +3,7 @@ import { BsCart2 } from "react-icons/bs";
 
 export const Product = () => {
   return (
-    <section id="product" className="sm:px-7 lg:px-32 mb-10">
+    <section id="product" className="sm:px-7 lg:px-32 mb-10 max-w-[1400px] mx-auto">
       <h2 className="text-2xl lg:text-3xl text-center mt-8 lg:mt-16 font-bold">
         Our <span className="text-primary">Products</span>
       </h2>

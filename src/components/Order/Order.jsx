@@ -4,7 +4,7 @@ import { IoIosCalendar } from "react-icons/io";
 export const Order = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center overflow-scroll lg:overflow-hidden ">
+      <div className="flex flex-col justify-center items-center overflow-scroll lg:overflow-hidden max-w-[1400px] mx-auto">
         <div className=" lg:w-[80%] my-4 mx-auto  z-50 lg:rounded-[20px] flex justify-between items-center h-28 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
           <div className="flex-1 pr-9  lg:pr-4 text-left ml-10">
             <div>
