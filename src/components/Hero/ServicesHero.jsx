@@ -45,11 +45,11 @@ export const ServicesHero = () => {
       {/* MODAL */}
       <Modal
         open={open}
-        title={<p className="font-bold mb-4 lg:text-xl">Book an Appointment</p>}
+        title={<p className="font-bold mb-4 text-lg lg:text-xl">Book an Appointment</p>}
         onOk={handleOk}
         centered
         onCancel={handleCancel}
-        footer={() => <Button>Submit</Button>}
+        footer={() => <Button className="rounded-md">Submit</Button>}
       >
         <BookAppointment />
       </Modal>

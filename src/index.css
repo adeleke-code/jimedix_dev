@@ -10,9 +10,20 @@
 }
 
 .custom-hover:hover .icon {
-  color: green; /* Change to the desired hover color */
+  color: green; 
 }
 
+.ant-form-item .ant-form-item-label {
+  flex-grow: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.ant-btn {
+  background-color: #6cbe00;
+}
 
 
 
