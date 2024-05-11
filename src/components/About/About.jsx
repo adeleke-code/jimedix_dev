@@ -1,7 +1,6 @@
-import React from "react";
-import Doc from "../../assets/Doc.png";
-import { Button } from "../../components/Button/Button";
+
 import { Link } from "react-router-dom";
+import { Button } from "../../components/Button/Button";
 
 export const About = () => {
   return (

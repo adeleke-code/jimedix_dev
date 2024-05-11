@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
-import { BsCart2 } from "react-icons/bs";
-import { Button } from "../Button/Button";
 import { Link, useLocation } from "react-router-dom";
+import { Button } from "../Button/Button";
 
 export const NavBar = () => {
   const location = useLocation();
@@ -45,7 +44,7 @@ export const NavBar = () => {
       )}
 
       {isOpen && (
-        <div className="block lg:hidden absolute top-0 -right-4  bg-primary w-[150p h-[100vh] px-5 pt-20 transition duration-200 z-[99]">
+        <div className="block lg:hidden absolute top-0 -right-4  bg-primary w-[150px] px-5 p-20 pb-10 transition duration-200 z-[99]">
           {!isBlogRoute && (
             <Link to="/blog">
               <Button

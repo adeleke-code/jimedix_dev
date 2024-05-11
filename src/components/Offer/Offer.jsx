@@ -1,8 +1,8 @@
-import React from "react";
+
 import { TbClock24 } from "react-icons/tb";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaUserDoctor } from "react-icons/fa6";
-
+import PropTypes from 'prop-types';
 
 export const Offer = () => {
   const FeatureCard = ({ icon, title, description }) => (
@@ -17,26 +17,32 @@ export const Offer = () => {
     </div>
   );
 
+  FeatureCard.propTypes = {
+    icon: PropTypes.node.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  };
+
   const features = [
     {
       icon: <TbClock24 className="icon" size={40} />,
       title: "Instant Delivery",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Get your results faster with our swift service.",
     },
     {
       icon: <HiOutlineLightBulb className="icon" size={40} />,
       title: "Easy Order",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Simplicity of placing your order with just a few clicks.",
     },
     {
       icon: <FaUserDoctor className="icon" size={40} />,
       title: "Secure Payment",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Your transactions, protected every step of the way.",
     },
     {
       icon: <FaUserDoctor className="icon" size={40} />,
       title: "Cashback Offer",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Order now and enjoy money back on your purchases.",
     },
   ];
 
@@ -47,13 +53,13 @@ export const Offer = () => {
           What makes us <span className="text-primary">Different ?</span>
         </h2>
         <p className="text-center lg:text-left mt-4 text-[14px] lg:text-[16px] text-gray-500">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, neque?
-          Unde est, sint commodi vero voluptate vitae repellat similique dolor.
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          We maintain the highest standards of quality and accuracy in
+          everything we do, so you can trust in the reliability of our results.
         </p>
         <p className="text-center lg:text-left mt-4 text-[14px] lg:text-[16px] text-gray-500">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, neque?
-          Unde est, sint commodi vero voluptate vitae repellat similique dolor.
+          We take the time to understand your needs and tailor our services
+          accordingly, because we believe that every individual deserves
+          personalized attention.
         </p>
       </div>
 

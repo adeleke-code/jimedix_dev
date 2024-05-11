@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "../Button/Button";
-import Input from "../Input/Input";
 import { Link } from "react-router-dom";
+import { Modal } from "antd";
+import BookAppointment from "../BookAppointment/BookAppointment";
 
 export const ServicesHero = () => {
-
+  const [open, setOpen] = useState(false);
+  const showModal = () => {
+    setOpen(true);
+  };
+  const handleOk = () => {
+    setOpen(false);
+  };
+  const handleCancel = () => {
+    setOpen(false);
+  };
 
   return (
     <section className="w-full mt-4 lg:mt-6 lg:gap-10 md:pb-20 lg:pb-0 relative">
@@ -13,8 +23,8 @@ export const ServicesHero = () => {
           Laboratory Services
         </h1>
         <p className="text-[10px] md:text-[16px] lg:text-[18px] lg:mt-2 text-[#fff] font-regular  md:w-[50%] text-center">
-          JIMEDIX's range of laboratory services covers a wide field of clinical
-          laboratory investigations.
+          JIMEDIX&apos;s range of laboratory services covers a wide field of
+          clinical laboratory investigations.
         </p>
 
         <div className="mt-4">
@@ -25,11 +35,24 @@ export const ServicesHero = () => {
             bg="bg-primary "
             w="w-[150px] lg:w-[200px]"
             h="h-[30px] lg:h-[42px]"
+            onClick={showModal}
           >
             Book An Appointment
           </Button>
         </div>
       </div>
+
+      {/* MODAL */}
+      <Modal
+        open={open}
+        title={<p className="font-bold mb-4 lg:text-xl">Book an Appointment</p>}
+        onOk={handleOk}
+        centered
+        onCancel={handleCancel}
+        footer={() => <Button>Submit</Button>}
+      >
+        <BookAppointment />
+      </Modal>
 
       {/* MENU ITEMS */}
       <div className="absolute top-[30%] transform -translate-y-1/2 -left-12  hidden lg:flex">

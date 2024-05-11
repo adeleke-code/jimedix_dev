@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Button } from "../Button/Button";
 import Input from "../Input/Input";
 import { Link } from "react-router-dom";
@@ -21,9 +21,7 @@ export const HeroSection = () => {
           Exceptional <span className="text-primary">Medicine</span> Delivered
         </h1>
         <p className="text-[10px] md:text-[16px] lg:text-[18px] lg:mt-2 text-[#fff] font-regular  md:w-[50%] text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit mollitia
-          debitis repudiandae eligendi quas hic dolores cupiditate, Corporis
-          nostrum
+        Experience the Ease and Convenience of Receiving Exceptional Medications Directly to Your Doorstep
         </p>
 
         <div className="flex gap-2 lg:gap-4 items-center mt-4">

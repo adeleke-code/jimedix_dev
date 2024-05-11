@@ -1,4 +1,3 @@
-import React from "react";
 import { IoIosCalendar } from "react-icons/io";
 
 export const Order = () => {

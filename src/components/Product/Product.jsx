@@ -1,15 +1,19 @@
-import React from "react";
+
 import { BsCart2 } from "react-icons/bs";
 
 export const Product = () => {
   return (
-    <section id="product" className="sm:px-7 lg:px-32 mb-10 max-w-[1400px] mx-auto">
+    <section
+      id="product"
+      className="sm:px-7 lg:px-32 mb-10 max-w-[1400px] mx-auto"
+    >
       <h2 className="text-2xl lg:text-3xl text-center mt-8 lg:mt-16 font-bold">
         Our <span className="text-primary">Products</span>
       </h2>
       <p className="text-center w-[80%] lg:w-[50%] mx-auto mt-4 text-[14px] lg:text-[16px] text-gray-500">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, neque?
-        Unde est, sint commodi vero voluptate vitae repellat similique dolor.
+        Discover Our Range of Products.
+        <br />
+        <b>Quality Guaranteed, Satisfaction Assured!</b>
       </p>
 
       <div className="mt-10 lg:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-6 lg:gap-4">

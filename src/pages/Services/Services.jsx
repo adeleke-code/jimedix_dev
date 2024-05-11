@@ -1,14 +1,7 @@
-import React from "react";
-import { HeroSection } from "../../components/Hero/Hero";
-import { NavBar } from "../../components/NavBar/NavBar";
-import { AboutHero } from "../../components/Hero/AboutHero";
-import { Footer } from "../../components/Footer/Footer";
-import { PiHandshakeDuotone } from "react-icons/pi";
-import { FaRegThumbsUp } from "react-icons/fa6";
-import { IoRocketOutline } from "react-icons/io5";
-import { GrUserWorker } from "react-icons/gr";
-import { ServicesHero } from "../../components/Hero/ServicesHero";
 import { Button } from "../../components/Button/Button";
+import { Footer } from "../../components/Footer/Footer";
+import { ServicesHero } from "../../components/Hero/ServicesHero";
+import { NavBar } from "../../components/NavBar/NavBar";
 
 export const Services = () => {
   const backgroundImageUrl =
@@ -43,18 +36,27 @@ export const Services = () => {
         </div>
       </div>
 
-      <div style={{
-        maxWidth: "1400px",
-        margin: "auto"
-      }} className="lg:px-24 py-10 lg:py-20">
-        <h2 className="text-xl text-center lg:text-left lg:text-4xl font-bold ">Our Pathology Departments</h2>
+      <div
+        style={{
+          maxWidth: "1400px",
+          margin: "auto",
+        }}
+        className="lg:px-24 py-10 lg:py-20"
+      >
+        <h2 className="text-xl text-center lg:text-left lg:text-4xl font-bold ">
+          Our Pathology Departments
+        </h2>
 
         <div className="grid grod-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  lg:pb-20 items-center mt-10 mx-4 lg:mx-0">
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40">
-            <h3 className="text-center text-[14px] lg:text-xl font-bold">SEROLOGY</h3>
+            <h3 className="text-center text-[14px] lg:text-xl font-bold">
+              SEROLOGY
+            </h3>
           </div>
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40">
-            <h3 className="text-center text-[14px] lg:text-xl font-bold">HEAMATOLOGY</h3>
+            <h3 className="text-center text-[14px] lg:text-xl font-bold">
+              HEAMATOLOGY
+            </h3>
           </div>
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40">
             <h3 className="text-center text-[14px] lg:text-xl font-bold">
@@ -62,7 +64,9 @@ export const Services = () => {
             </h3>
           </div>
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40">
-            <h3 className="text-center text-[14px] lg:text-xl font-bold">IMMUNOLOGY</h3>
+            <h3 className="text-center text-[14px] lg:text-xl font-bold">
+              IMMUNOLOGY
+            </h3>
           </div>
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40">
             <h3 className="text-center text-[14px] lg:text-xl font-bold px-4">
@@ -85,7 +89,9 @@ export const Services = () => {
             </h3>
           </div>
           <div className=" gap-6 bg-primary text-white flex flex-col justify-center items-center h-40 px-4">
-            <h3 className="text-center text-[14px] lg:text-xl font-bold">HEAMATOLOGY</h3>
+            <h3 className="text-center text-[14px] lg:text-xl font-bold">
+              HEAMATOLOGY
+            </h3>
           </div>
         </div>
 
@@ -111,7 +117,7 @@ export const Services = () => {
         </div>
 
         <div className="flex flex-col-reverse px-4 lg:px-0 lg:flex-row items-center">
-          <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-start px-10 py-10 lg:py-20">
+          <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-start px-10 py-10 lg:py-20 lg:h-[534px]">
             <h3 className=" lg:text-2xl font-bold">Ultrasound Scans</h3>
             <p className="text-[14px] lg:text-lg">
               Our state of the art ultrasound facility performs all types of
@@ -138,7 +144,7 @@ export const Services = () => {
             </div>
           </div>
           <div
-            className="w-full lg:w-[50%] bg-contain lg:bg-cover h-[195px] lg:h-[534px]"
+            className="w-full lg:w-[50%] bg-cover h-[195px] lg:h-[534px]"
             style={{
               backgroundImage: ` url("https://images.pexels.com/photos/7089396/pexels-photo-7089396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
               // backgroundSize: "cover",
@@ -150,20 +156,33 @@ export const Services = () => {
 
         <div className="flex flex-col mt-1 lg:mt-0 px-4 lg:px-0 lg:flex-row items-center">
           <div
-              className="w-full lg:w-[50%] bg-contain lg:bg-cover h-[195px] lg:h-[646px]"
+            className="w-full lg:w-[50%] bg-cover h-[195px] lg:h-[702px]"
             style={{
               backgroundImage: ` url("https://images.pexels.com/photos/5940706/pexels-photo-5940706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
-             
+
               backgroundRepeat: "no-repeat",
               // height: "",
             }}
           ></div>
-          <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-start px-10 py-10 lg:py-20">
-            <h3 className=" lg:text-2xl font-bold">Healthcare Screening Packages</h3>
+          <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-start px-10 py-10 lg:py-20 lg:h-[702px]">
+            <h3 className=" lg:text-2xl font-bold">
+              Healthcare Screening Packages
+            </h3>
             <p className="text-[14px] lg:text-lg">
-            When you are sick, you feel terrible, you have no choice than to think of your health, you adhere strictly to the physician’s advice just so you get better. What if you can reduce your chances of falling sick in the first place? What if that chronic disease was detected early enough?
-Regular screenings & health checks against most illnesses can help you lead a long, healthy and happy life.
-At Firmcare Diagnostics, we advocate preventive healthcare measures. This is why our team of medical doctors and scientists have carefully selected a series of tests to help you access your health status. Health checks if done regularly, can help to find disease early, even before the symptoms set in. This increases your chances for treatment and better cure.
+              We carry out various Screening packages for Organizations in
+              Lagos. We have successfully done and are still doing business with
+              Organizations like Alara Lekki Lagos, Maconi Wine Ltd Amuwo Lagos,
+              Fresh taste Bakery Ikotun Lagos, Freshdew Bakery Okota Lagos,
+              Mijome Enterprise Amuwo Lagos, Great Dimension Schools, Angels
+              Foundation School, Amaekpu Women Organization, Ohaoffia Women
+              Organization, Presbyterian Women Organization South Lagos District
+              etc.
+              <br />
+              <br />
+              As part of our Corporate Social Responsibility, we also partner
+              with associations like Catholic Women Organization, Pneul
+              Properties Ltd, Alarts Global Ltd to carry out free Trainings and
+              Health Education, affordable and free Health Screenings.
             </p>
 
             <div>

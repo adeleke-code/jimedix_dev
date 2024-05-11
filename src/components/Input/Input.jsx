@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
-
+import PropTypes from "prop-types";
 export default function Input({
   id = "",
   label = "",
@@ -52,3 +52,13 @@ export default function Input({
     </div>
   );
 }
+
+Input.propTypes = {
+  id: PropTypes.string,
+  label: PropTypes.string,
+  type: PropTypes.oneOf(["text", "password", "number", "email", "tel"]),
+  onChange: PropTypes.func,
+  isDisabled: PropTypes.bool,
+  placeholder: PropTypes.string,
+  rightIcon: PropTypes.element,
+};

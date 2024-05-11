@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -37,7 +37,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             placeholder="Name"
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 outline-none"
           />
         </div>
         <div>
@@ -48,7 +48,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="Email Address"
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 outline-none"
           />
         </div>
         <div>
@@ -59,7 +59,7 @@ const ContactForm = () => {
             value={formData.phoneNumber}
             onChange={handleChange}
             placeholder="Phone Number"
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 outline-none"
           />
         </div>
         <div>
@@ -71,7 +71,7 @@ const ContactForm = () => {
             placeholder="Message"
             cols={10}
             rows={5}
-            className="w-full border rounded px-3 py-2"
+            className="w-full border rounded px-3 py-2 outline-none"
           ></textarea>
         </div>
         <button
