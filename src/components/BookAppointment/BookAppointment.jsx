@@ -89,4 +89,5 @@ const BookAppointment = () => (
     </Form.Item>
   </Form>
 );
+
 export default BookAppointment;

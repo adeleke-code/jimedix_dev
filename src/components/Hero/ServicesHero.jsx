@@ -2,18 +2,75 @@ import { useState } from "react";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import { Modal } from "antd";
-import BookAppointment from "../BookAppointment/BookAppointment";
+
+import { DatePicker, Form, Input } from "antd";
+const formItemLayout = {
+  labelCol: {
+    xs: {
+      span: 24,
+    },
+    sm: {
+      span: 8,
+    },
+  },
+  wrapperCol: {
+    xs: {
+      span: 24,
+    },
+    sm: {
+      span: 16,
+    },
+  },
+};
+const config = {
+  rules: [
+    {
+      type: "object",
+      required: true,
+      message: "Please select time!",
+    },
+  ],
+};
 
 export const ServicesHero = () => {
   const [open, setOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    message: "",
+    dateTime: null,
+  });
+
   const showModal = () => {
     setOpen(true);
   };
+
   const handleOk = () => {
     setOpen(false);
   };
+
   const handleCancel = () => {
     setOpen(false);
+  };
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleDateTimeChange = (value) => {
+    setFormData({
+      ...formData,
+      dateTime: value,
+    });
+  };
+
+  const onFinish = () => {
+    console.log("Form Data:", formData);
+    // Add logic here to submit form data to backend
   };
 
   return (
@@ -45,13 +102,82 @@ export const ServicesHero = () => {
       {/* MODAL */}
       <Modal
         open={open}
-        title={<p className="font-bold mb-4 text-lg lg:text-xl">Book an Appointment</p>}
+        title={
+          <p className="font-bold mb-4 text-lg lg:text-xl">
+            Book an Appointment
+          </p>
+        }
         onOk={handleOk}
         centered
         onCancel={handleCancel}
-        footer={() => <Button className="rounded-md">Submit</Button>}
+        footer={() => (
+          <Button onClick={onFinish} className="rounded-md">
+            Submit
+          </Button>
+        )}
       >
-        <BookAppointment />
+        <Form
+          name="time_related_controls"
+          {...formItemLayout}
+          onFinish={onFinish}
+          style={{
+            maxWidth: 600,
+          }}
+        >
+          <Form.Item
+            name="firstName"
+            label="First Name"
+            rules={[{ required: true }]}
+            className="font-semibold text-[20px] "
+          >
+            <Input
+              className="w-full "
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleInputChange}
+            />
+          </Form.Item>
+          <Form.Item
+            name="lastName"
+            label="Last Name"
+            rules={[{ required: true }]}
+            className="font-semibold text-[20px]"
+          >
+            <Input
+              className="w-full "
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
+            />
+          </Form.Item>
+          <Form.Item
+            name="message"
+            label="Message"
+            rules={[{ required: true }]}
+            className="font-semibold text-[20px]"
+          >
+            <Input.TextArea
+              className="w-full "
+              name="message"
+              value={formData.message}
+              onChange={handleInputChange}
+            />
+          </Form.Item>
+          <Form.Item
+            name="dateTime"
+            label="Date and Time"
+            className="font-semibold text-[20px] "
+            {...config}
+          >
+            <DatePicker
+              showTime
+              format="YYYY-MM-DD HH:mm:ss"
+              className="w-full"
+              value={formData.dateTime}
+              onChange={handleDateTimeChange}
+            />
+          </Form.Item>
+        </Form>
       </Modal>
 
       {/* MENU ITEMS */}
