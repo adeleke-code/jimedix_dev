@@ -16,15 +16,11 @@ export const HeroSection = () => {
   };
   return (
     <section className="w-full  lg:gap-10 md:pb-20 lg:pb-0 relative">
-      <div className=" h-[200px] lg:h-[400px] lg:pt-10 flex flex-col gap-4 items-center justify-center">
+      <div className=" h-[200px] lg:h-[400px] flex flex-col gap-4 items-center justify-center">
         <h1 className="text-2xl lg:text-5xl leading-[24px] md:leading-[40px] lg:leading-[60px] text-[#fff] font-bold text-center">
-          Exceptional Diagnostic <br /> <span className="text-primary">Medicare</span>{" "}
-          Deliveries
+          Exceptional Diagnostic <br />{" "}
+          <span className="text-primary">Medicare</span> Deliveries
         </h1>
-        {/* <p className="text-[10px] md:text-[16px] lg:text-[18px] lg:mt-2 text-[#fff] font-regular  md:w-[50%] text-center">
-          Experience the Ease and Convenience of Receiving Exceptional
-          Medications Directly to Your Doorstep
-        </p> */}
 
         {/* <div className="flex gap-2 lg:gap-4 items-center mt-4">
           <Input
