@@ -43,40 +43,40 @@ export const AboutUs = () => {
           maxWidth: "1400px",
           margin: "auto",
         }}
-        className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 py-8 lg:py-20 items-center "
+        className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 py-8 lg:py-20 items-center w-full justify-center"
       >
-        <p className="lg:w-[50%] text-[14px] lg:text-xl text-center kg:text-left">
-          We began operations in 2016, back then we were only a pathology
-          laboratory that attended to Walk-in Clients and a few Hospitals.Today,
-          in over 5 years of existence, we have been able to live up to our
-          vision of becoming a reference point and preferred partner in
-          healthcare services by working on over 5000 samples, which has not
-          only allowed us to have increased number of clientele but has also
-          expanded our services in order to contribute our quota in ensuring
-          reliable outcomes in Healthcare.
+        <p className=" text-[14px] lg:text-xl text-center lg:w-[60%] ">
+          At Jimedix Diagnostic and Clinical Laboratory, we advocate for
+          preventive healthcare measures; this is core in our values and the
+          very reason why our team of medical laboratory scientists and clinical
+          practitioners have carefully selected a series of test to help you
+          examine your health status. Regular health check-ups if done, can help
+          you discover diseases early even before the symptoms start
+          manifesting. These check-ups increase your early treatment for better
+          cure and guarantee you a lot of savings in terms of cost.
         </p>
-        <div className="lg:w-[50%] gap-6 bg-primary text-white flex flex-col justify-center items-center py-10 lg:p-10">
+      </div>
+
+      <div className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 items-center lg:pb-20">
+        <div className="lg:w-[50%] lg:h-[350px]  gap-6 bg-primary text-white flex flex-col justify-center items-center py-10 lg:p-10">
           <h3 className="text-center text-xl lg:text-3xl font-bold">
             OUR VISION
           </h3>
           <p className="text-center px-2  lg:text-xl">
-          To pioneer accessible and diagnostic innovative  healthcare solutions, striving towards a healthier and more resilient community,  our vision is to lead the way in shaping a future where everyone has equitable access to quality medical care, fostering a world where <b className="text-secondary">patients&lsquo; interest comes First!</b>
+            To pioneer accessible and diagnostic innovative healthcare
+            solutions, striving towards a healthier and more resilient
+            community, our vision is to lead the way in shaping a future where
+            everyone has equitable access to quality medical care, fostering a
+            world where{" "}
+            <b className="font-bold">patients&lsquo; interest comes First!</b>
           </p>
         </div>
-      </div>
 
-      <div
-        style={{
-          maxWidth: "1400px",
-          margin: "auto",
-        }}
-        className="flex flex-col lg:flex-row gap-10 px-4 lg:px-24 lg:pb-20 items-center"
-      >
-        <div className="lg:w-[50%] gap-6 bg-secondary text-white flex flex-col justify-center items-center py-10 lg:p-10">
+        <div className="lg:w-[50%] lg:h-[350px]  gap-6 bg-secondary text-white flex flex-col justify-center items-center py-10 lg:p-10">
           <h3 className="text-center text-xl lg:text-3xl font-bold">
             OUR MISSION
           </h3>
-          <p className="text-center px-2   lg:text-xl">
+          <p className="text-center px-2  lg:text-xl">
             To deliver exceptional and compassionate healthcare services to
             individuals and communities, ensuring personalized and
             evidence-based care.
@@ -87,17 +87,6 @@ export const AboutUs = () => {
             impact and quality health outcomes.
           </p>
         </div>
-        <p className="lg:w-[50%] text-[14px] lg:text-xl text-center kg:text-left">
-          We carry out various Screening packages for Organizations in Abuja, we
-          have successfully done and still doing business with organizations
-          like, TAJ Bank, Transcorp, Sheraton Hotel, Jaiz Bank, Development Bank
-          of Nigeria, Nestle, Cowry Asset Management, TETFUND, Media Trust,
-          Leadway Assurance Company, Cornerstone, Custodian, Salini construction
-          company, Regent Schools, Brickhall Schools, Oaklands, to mention a
-          few. As part of our corporate Social responsibility, we also partner
-          with associations like ACCA and NGOS to carry out free Trainings and
-          affordable Screenings.
-        </p>
       </div>
 
       <div
