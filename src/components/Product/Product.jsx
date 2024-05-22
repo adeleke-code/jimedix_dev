@@ -100,7 +100,7 @@ export const Product = () => {
                 {product.description}
               </p>
 
-              <div className="flex items-center justify-center -space-x-4 mt-4 lg:opacity-0 absolute bottom-0 p-4 w-full visible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 rounded-b-[20px] -mb-9">
+              <div className="flex items-center justify-center -space-x-4 mt-4 lg:opacity-0 absolute bottom-0 left-0 right-0 p-4 w-full visible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 rounded-b-[20px] -mb-9">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center z-20">
                   <BsCart2 size={20} color="#fff" />
                 </div>
