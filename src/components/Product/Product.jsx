@@ -9,32 +9,59 @@ const products = [
     id: 1,
     image: Rexitin,
     title: "Rexitin Herbal Product",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut quisquam consequatur laborum cupiditate delectus.",
+    description: (
+      <ul>
+        <li>* It takes care of gas</li>
+        <li>* It&apos;s very good for B.P</li>
+        <li>* Relieves you from stress</li>
+        <li>* It can also handle malaria and typhoid</li>
+        <li>* PID (Pelvic Inflammatory Disease)</li>
+      </ul>
+    ),
     price: "#25,000",
   },
   {
     id: 2,
     image: Indications,
     title: "Indications for Men",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.",
+    description: (
+      <ul>
+        <li>* Erectile dysfunction</li>
+        <li>* Low sperm count/Azoospermia</li>
+        <li>* Improve fertility</li>
+        <li>* Premature ejaculation</li>
+        <li>* UTI (Urinary Tract Infections)</li>
+      </ul>
+    ),
     price: "#25,000",
   },
   {
     id: 3,
     image: Dizolve,
     title: "Dizolve Herbal Product",
-    description:
-      "Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+    description: (
+      <ul>
+        <li>* It dissolves Fibroid and Prostate</li>
+        <li>* It dissolves hernia</li>
+        <li>* Hormonal Imbalance</li>
+        <li>* It also boasts libido in men</li>
+        <li>* It&apos;s good for any inflammation or tumor</li>
+      </ul>
+    ),
     price: "#25,000",
   },
   {
     id: 4,
     image: Rextore,
     title: "Rextore Herbal Capsules",
-    description:
-      "Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus. Donec sollicitudin molestie malesuada.",
+    description: (
+      <ul>
+        <li>* Urinary tract infection</li>
+        <li>* Staphylococcus</li>
+        <li>* Ulcer</li>
+        <li>* Pelvic inflammatory disease</li>
+      </ul>
+    ),
     price: "#25,000",
   },
 ];
@@ -69,11 +96,11 @@ export const Product = () => {
               <h5 className="text-[14px] lg:text-lg font-bold text-center">
                 {product.title}
               </h5>
-              <p className="text-center text-[14px] lg:text-[16px] text-gray-500 px-8 pb-4 mt-2">
+              <p className="text-left text-[14px] lg:text-[16px] text-gray-500 px-2 pb-4 mt-2">
                 {product.description}
               </p>
 
-              <div className="flex items-center justify-center -space-x-4 mt-4 opacity-0 absolute bottom-0 p-4 w-full invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 rounded-b-[20px] -mb-9">
+              <div className="flex items-center justify-center -space-x-4 mt-4 lg:opacity-0 absolute bottom-0 p-4 w-full visible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 rounded-b-[20px] -mb-9">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center z-20">
                   <BsCart2 size={20} color="#fff" />
                 </div>
