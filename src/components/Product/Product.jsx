@@ -18,7 +18,7 @@ const products = [
         <li>* PID (Pelvic Inflammatory Disease)</li>
       </ul>
     ),
-    price: "#25,000",
+    price: "₦25,000",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const products = [
         <li>* UTI (Urinary Tract Infections)</li>
       </ul>
     ),
-    price: "#25,000",
+    price: "₦25,000",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const products = [
         <li>* It&apos;s good for any inflammation or tumor</li>
       </ul>
     ),
-    price: "#25,000",
+    price: "₦25,000",
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ const products = [
         <li>* Pelvic inflammatory disease</li>
       </ul>
     ),
-    price: "#25,000",
+    price: "₦25,000",
   },
 ];
 
@@ -102,9 +102,9 @@ export const Product = () => {
 
               <div className="flex items-center justify-center -space-x-4 mt-4 lg:opacity-0 absolute bottom-0 left-0 right-0 p-4 w-full visible group-hover:opacity-100 group-hover:visible transition-opacity duration-300 rounded-b-[20px] -mb-9">
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center z-20">
-                  <BsCart2 size={20} color="#fff" />
+                  <BsCart2 size={20} color="₦fff" />
                 </div>
-                <div className="text-primary h-8 w-24 rounded-[30px] bg-[#fff] flex items-center justify-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] pl-3 font-bold">
+                <div className="text-primary h-8 w-24 rounded-[30px] bg-[₦fff] flex items-center justify-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] pl-3 font-bold">
                   {product.price}
                 </div>
               </div>
