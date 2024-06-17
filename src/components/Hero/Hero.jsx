@@ -19,7 +19,7 @@ export const HeroSection = () => {
       <div className=" h-[200px] lg:h-[400px] flex flex-col gap-4 items-center justify-center">
         <h1 className="text-2xl lg:text-5xl leading-[24px] md:leading-[40px] lg:leading-[60px] text-[#fff] font-bold text-center">
           Exceptional Diagnostic <br />{" "}
-          <span className="text-primary">Medicare</span> Deliveries
+          <span className="text-primary">Deliveries</span>
         </h1>
 
         {/* <div className="flex gap-2 lg:gap-4 items-center mt-4">
