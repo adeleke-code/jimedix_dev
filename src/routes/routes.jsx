@@ -14,7 +14,7 @@ export const NavRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/our-team" element={<Team />} />
+        {/* <Route path="/our-team" element={<Team />} /> */}
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         {/* <Route path="/product" element={<Product />} /> */}
