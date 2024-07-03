@@ -92,12 +92,12 @@ export const HeroSection = () => {
             </li>
           </Link>
 
-          <Link to="/our-team">
+          {/* <Link to="/our-team">
             <li className="flex items-center gap-10 text-gray-200 cursor-pointer">
               <span className="h-[2px] w-10 bg-gray-200"></span>
               Team
             </li>
-          </Link>
+          </Link> */}
 
           <Link to="/contact-us">
             <li className="flex items-center gap-10 text-gray-200 cursor-pointer">
