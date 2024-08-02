@@ -79,11 +79,11 @@ export const NavBar = () => {
               </li>
             </Link>
 
-            <Link to="/our-team">
+            {/* <Link to="/our-team">
               <li className=" text-gray-200 cursor-pointer text-center">
                 Team
               </li>
-            </Link>
+            </Link> */}
 
             <Link to="/contact-us">
               <li className=" text-gray-200 cursor-pointer text-center">
