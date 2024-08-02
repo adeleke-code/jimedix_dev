@@ -1,17 +1,18 @@
 import React from "react";
 import { RiFacebookFill } from "react-icons/ri";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaXTwitter, FaInstagram, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <div className="  bg-[#1a2423] ">
+    <div className="bg-[#1a2423]">
       <footer className="px-7 lg:px-32 flex flex-col-reverse lg:flex-row justify-between items-center py-10 lg:py-0 lg:h-24 gap-6 max-w-[1400px] mx-auto">
-        <div>
+        <div className="flex flex-col items-center lg:items-start">
           <p className="text-white text-[12px] lg:text-[14px]">
             &copy; All Rights Reserved
+          </p>
+          <p className="text-white text-[12px] lg:text-[14px] mt-2">
+            NO 1, Johnson Sam-Iye, Canal Estate Okota, Lagos
           </p>
         </div>
         <div>
