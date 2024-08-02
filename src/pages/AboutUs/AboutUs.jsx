@@ -8,7 +8,7 @@ import { NavBar } from "../../components/NavBar/NavBar";
 
 export const AboutUs = () => {
   const backgroundImageUrl =
-    "https://images.pexels.com/photos/3957987/pexels-photo-3957987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    "https://res.cloudinary.com/nextpixie/image/upload/v1722599279/18424_n5cyam.jpg";
 
   return (
     <div
