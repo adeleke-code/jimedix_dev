@@ -8,7 +8,7 @@ import { BlogHero } from "../../components/Hero/BlogHero";
 
 export const Blog = () => {
   const backgroundImageUrl =
-    "https://images.pexels.com/photos/12257633/pexels-photo-12257633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    "https://res.cloudinary.com/nextpixie/image/upload/v1722595216/139717_lyoce6.jpg";
 
   return (
     <div
