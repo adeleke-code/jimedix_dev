@@ -36,7 +36,7 @@ const config = {
 
 export const Services = () => {
   const backgroundImageUrl =
-    "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    "https://res.cloudinary.com/nextpixie/image/upload/v1722596174/2149143897_kgiunl.jpg";
 
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState({
