@@ -5,7 +5,7 @@ import ContactForm from "../../components/Contact/ContactForm";
 
 export const Contact = () => {
   const backgroundImageUrl =
-    "https://images.pexels.com/photos/4064227/pexels-photo-4064227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+    "https://res.cloudinary.com/nextpixie/image/upload/v1722596351/5797_g3cr6a.jpg";
   return (
     <div
       style={{
