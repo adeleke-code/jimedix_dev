@@ -11,7 +11,7 @@ import { About } from "../../components/About/About";
 
 export const Home = () => {
   const backgroundImageUrl =
-    "https://images.pexels.com/photos/19782523/pexels-photo-19782523/free-photo-of-close-up-of-woman-holding-hand-of-a-person-connected-to-medical-devices.jpeg?auto=compress&cs=tinysrgb&w=600";
+    "https://res.cloudinary.com/nextpixie/image/upload/v1722595519/2147767415_amo6rq.jpg";
 
   return (
     <div
