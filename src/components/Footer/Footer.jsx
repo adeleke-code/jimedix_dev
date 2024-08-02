@@ -1,6 +1,6 @@
 import React from "react";
 import { RiFacebookFill } from "react-icons/ri";
-import { FaXTwitter, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -25,7 +25,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-row-reverse lg:flex-row gap-6 items-center justify-center">
           <RiFacebookFill color="white" className="cursor-pointer" />
-          <FaXTwitter color="white" className="cursor-pointer" />
+          <FaTwitter color="white" className="cursor-pointer" />
           <FaInstagram color="white" className="cursor-pointer" />
           <FaTiktok color="white" className="cursor-pointer" />
         </div>
