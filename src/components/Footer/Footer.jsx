@@ -15,7 +15,7 @@ export const Footer = () => {
             1, Johnson Sam-Iye, Canal Estate Okota, Lagos
           </p>
           <p className="text-white text-[12px] lg:text-[14px] mt-2">
-            4, Alhaji Prince Bello Str, Fasheun Bridge. Bucknor Lagos
+            4, Alhaji Prince Bello, Fasheun. Bucknor Lagos
           </p>
         </div>
         <div>
